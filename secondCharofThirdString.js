@@ -16,5 +16,12 @@ let newSplit = splitString[2];
 
 console.log(splitString);
 
+console.log(typeof newSplit);
+
+if (typeof newSplit[1] === 'string') {
+    console.log('you have yourself a string');
+} else {
+    console.log('Error Error Error');
+}
 console.log(newSplit[1]);
 // console.log(splitString[1]);
